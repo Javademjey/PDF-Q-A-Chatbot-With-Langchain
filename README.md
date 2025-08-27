@@ -28,6 +28,7 @@ The chatbot supports conversation memory and can run on either:
 ### 1. Clone Repository
 
 git clone https://github.com/your-username/PDF-Q-A-Chatbot-With-Langchain.git
+
 cd PDF-Q-A-Chatbot-With-Langchain
 
 ### 2. Create Virtual Environment
