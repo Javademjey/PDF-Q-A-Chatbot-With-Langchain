@@ -33,7 +33,9 @@ cd PDF-Q-A-Chatbot-With-Langchain
 ### 2. Create Virtual Environment
 
 python -m venv venv
+
 source venv/bin/activate   # Mac/Linux
+
 venv\Scripts\activate      # Windows
 
 ### 3. Install Dependencies
@@ -67,8 +69,7 @@ Dependencies include:
 
 1. Place your PDF file in the project directory (e.g., monopoly.pdf).
 2. Run the app:
-
-      python app.py
+  python app.py
    
 3. The Gradio interface will open in your browser automatically.
 
@@ -80,17 +81,6 @@ Dependencies include:
 2. Type a question related to your PDF (e.g., "What are the rules for buying houses?").
 3. The chatbot retrieves relevant PDF chunks + answers with context.
 4. Continue chatting — the bot remembers history.
-
----
-
-## 🧱 Project Structure
-
-PDF-Q-A-Chatbot-With-Langchain/
-│── app.py              # Main application
-│── monopoly.pdf        # Example PDF (replace with your own)
-│── requirements.txt    # Python dependencies
-│── README.md           # Documentation
-│── vector_db/          # Vector database (auto-generated)
 
 ---
 
